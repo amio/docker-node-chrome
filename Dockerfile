@@ -13,3 +13,8 @@ RUN set -x \
         google-chrome-stable
 
 ENV CHROME_BIN /usr/bin/google-chrome
+
+RUN set -x \
+    && node -v \
+    && npm -v \
+    && google-chrome --version
