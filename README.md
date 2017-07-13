@@ -6,11 +6,12 @@ Dockerfile for nodejs + chrome.
 
 https://hub.docker.com/r/amio/node-chrome/
 
-This Dockerfile contains:
+This [Dockerfile](/Dockerfile) contains:
 
-- node: v8.1.2
-- npm: v5.0.3
+- node: 8.x
+- npm: (bundled with node)
 - google-chrome: 59.0.3071.115
+- noto fonts
 
 ## Lincense
 
