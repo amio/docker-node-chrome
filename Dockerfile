@@ -14,14 +14,6 @@ RUN set -x \
 
 ENV CHROME_BIN /usr/bin/google-chrome
 
-# Install noto fonts
-
-RUN set -x \
-    && apt-get install -y \
-        fonts-noto-cjk \
-    && cp /etc/fonts/conf.avail/69-language* /etc/fonts/conf.d \
-    && sed -i 's/Droid\ Sans\ Fallback\|Droid\ Sans/Noto\ Sans\ cjk\ SC\ Regular/g' 69-language*
-
 # Log versions
 
 RUN set -x \

@@ -10,8 +10,7 @@ This [Dockerfile](/Dockerfile) contains:
 
 - node: 8.x
 - npm: (bundled with node)
-- google-chrome: 59.0.3071.115
-- noto fonts
+- google-chrome: 59
 
 ## Lincense
 
