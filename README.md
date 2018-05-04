@@ -8,9 +8,9 @@ https://hub.docker.com/r/amio/node-chrome/
 
 This [Dockerfile](/Dockerfile) contains:
 
-- node: 8.x
-- npm: (bundled with node)
-- google-chrome: 59
+- node: 10
+- npm: (bundled with node 10)
+- google-chrome: 66
 
 ## Lincense
 
